@@ -4,7 +4,6 @@ Section: Games
 Priority: optional
 Architecture: all
 Depends:
- ${misc:Depends},
  steam | steam-launcher,
  wmctrl,
  x11-xserver-utils,

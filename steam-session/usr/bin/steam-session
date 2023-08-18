@@ -1,0 +1,12 @@
+#!/bin/bash
+/usr/bin/ratpoison &
+
+TERMINAL=`who | awk '{print $2}'`
+
+if test -z "$DBUS_SESSION_BUS_ADDRESS" ; then
+        eval 'dbus-launch --sh-syntax --exit-with-session'
+fi
+
+steam-de
+
+kill `ps | grep dbus-launch | grep -v grep | awk '{print $1}'`
