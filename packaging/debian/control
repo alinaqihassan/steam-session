@@ -10,7 +10,7 @@ Vcs-Browser: https://github.com/alinaqihassan/steam-session
 
 Package: steam-session
 Architecture: all
-Depends: steam | steam-launcher, wmctrl, x11-xserver-utils, xfwm4, xinput, zenity, ratpoison
+Depends: steam | steam-launcher, ratpoison
 Suggests: nvidia-settings
 Provides: steam-session
 Replaces: steam-session, steam-login

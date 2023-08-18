@@ -1,4 +1,5 @@
 #!/bin/bash
+# Copyright 2023 Ali Naqi Hassan Rizvi <alinaqihassan@gmail.com>
 /usr/bin/ratpoison &
 
 TERMINAL=`who | awk '{print $2}'`
@@ -7,6 +8,6 @@ if test -z "$DBUS_SESSION_BUS_ADDRESS" ; then
         eval 'dbus-launch --sh-syntax --exit-with-session'
 fi
 
-steam-de
+steam
 
 kill `ps | grep dbus-launch | grep -v grep | awk '{print $1}'`
