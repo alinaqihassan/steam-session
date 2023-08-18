@@ -1,12 +1,12 @@
 Source: steam-login
 Section: x11
 Priority: optional
-Maintainer: Thomaz Reis <thor27@gmail.com>
+Maintainer: Ali Naqi Hassan Rizvi <alinaqihassan@gmail.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.5
-Homepage: https://github.com/thor27/steam-login/
-Vcs-Git: https://github.com/thor27/steam-login.git
-Vcs-Browser: https://github.com/thor27/steam-login/
+Homepage: https://github.com/alinaqihassan/steam-session
+Vcs-Git: https://github.com/alinaqihassan/steam-session.git
+Vcs-Browser: https://github.com/alinaqihassan/steam-session
 
 Package: steam-session
 Architecture: all
@@ -17,18 +17,10 @@ Depends:
  x11-xserver-utils,
  xfwm4,
  xinput,
- zenity
+ zenity,
+ ratpoison
 Suggests:
- bumblebee,
- gnome-settings-daemon,
- nvidia-settings,
- primus,
- xserver-xorg-input-joystick
-Provides: steam-login
-Replaces: steam-login
-Description: Launch Steam Big Picture from your login screen
- With the release of Steam Beta, and steam BigPicture mode on Linux, this
- package will put Steam as a login option, so you will be able to open only
- Steam and needed software to make it run correctly.
- It's almost a Steam Desktop.
-
+ nvidia-settings
+Provides: steam-session
+Replaces: steam-session, steam-login
+Description: Creates a X session to start Steam Big Picture from the Login screen, similar to SteamOS.

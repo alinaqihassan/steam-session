@@ -1,7 +1,7 @@
 Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
-Name: steam-login
+Name: steam-session
 Maintainer: Ali Naqi Hassan Rizvi <alinaqihassan@gmail.com>
-Source: https://github.com/thor27/steam-login/
+Source: https://github.com/alinaqihassan/steam-session
 Copyright: 2023 Ali Naqi Hassan Rizvi <alinaqihassan@gmail.com>
 
 License: GPL-2+
