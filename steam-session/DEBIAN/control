@@ -15,4 +15,5 @@ Suggests:
 Maintainer: Ali Naqi Hassan Rizvi <alinaqihassan@gmail.com>
 Installed-size: 60
 Homepage: https://github.com/alinaqihassan/steam-session
-Description: Creates a X session to start Steam Big Picture from the Login screen, similar to SteamOS.
+Description:  Creates a X session to start Steam from the Login screen.
+ allows you to start Steam Big Picture straight from the Display Manager.

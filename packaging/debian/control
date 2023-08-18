@@ -10,16 +10,9 @@ Vcs-Browser: https://github.com/alinaqihassan/steam-session
 
 Package: steam-session
 Architecture: all
-Depends:
- steam | steam-launcher,
- wmctrl,
- x11-xserver-utils,
- xfwm4,
- xinput,
- zenity,
- ratpoison
-Suggests:
- nvidia-settings
+Depends: steam | steam-launcher, wmctrl, x11-xserver-utils, xfwm4, xinput, zenity, ratpoison
+Suggests: nvidia-settings
 Provides: steam-session
 Replaces: steam-session, steam-login
-Description: Creates a X session to start Steam Big Picture from the Login screen, similar to SteamOS.
+Description:  Creates a X session to start Steam from the Login screen.
+ allows you to start Steam Big Picture straight from the Display Manager.
