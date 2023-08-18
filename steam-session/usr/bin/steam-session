@@ -8,6 +8,6 @@ if test -z "$DBUS_SESSION_BUS_ADDRESS" ; then
         eval 'dbus-launch --sh-syntax --exit-with-session'
 fi
 
-steam
+steam -gamepadui
 
 kill `ps | grep dbus-launch | grep -v grep | awk '{print $1}'`
