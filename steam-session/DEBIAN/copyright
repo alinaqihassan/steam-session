@@ -1,8 +1,8 @@
 Format-Specification: http://svn.debian.org/wsvn/dep/web/deps/dep5.mdwn?op=file&rev=135
 Name: steam-login
-Maintainer: Thomaz Reis <thor27@gmail.com>
+Maintainer: Ali Naqi Hassan Rizvi <alinaqihassan@gmail.com>
 Source: https://github.com/thor27/steam-login/
-Copyright: 2012 Thomaz Reis <thor27@gmail.com>
+Copyright: 2023 Ali Naqi Hassan Rizvi <alinaqihassan@gmail.com>
 
 License: GPL-2+
 This program is free software; you can redistribute it and/or modify

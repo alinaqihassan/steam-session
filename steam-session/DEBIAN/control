@@ -1,5 +1,5 @@
-Package: steam-login
-Version: 10
+Package: steam-session
+Version: 1
 Section: Games
 Priority: optional
 Architecture: all
@@ -10,15 +10,10 @@ Depends:
  x11-xserver-utils,
  xfwm4,
  xinput,
- zenity
+ zenity,
+ ratpoison
 Suggests:
- bumblebee,
- gnome-settings-daemon,
- nvidia-settings,
- primus,
- xserver-xorg-input-joystick
-Maintainer: Thomaz Reis <thor27@gmail.com>
-Installed-size: 52
-Homepage: https://github.com/thor27/steam-login/
-Description: Put Steam BigPicture mode at login screen.
- With the release of Steam Beta, and steam BigPicture mode on Linux, this package will put Steam as a login option, so you will be able to open only Steam and needed software to make it run correctly. It's almost a Steam Desktop.
+Maintainer: Ali Naqi Hassan Rizvi <alinaqihassan@gmail.com>
+Installed-size: 60
+Homepage: https://github.com/alinaqihassan/steam-session
+Description: Creates a X session to start Steam Big Picture from the Login screen, similar to SteamOS.
