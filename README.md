@@ -14,4 +14,4 @@ Steam sometimes may "hide" itself, mostly when something went wrong with a game 
 INSTALL
 -------
 
-Download *.deb* from [here](https://steam-session.netlify.app)
+Download *.deb* from [here](https://steam-session.netlify.app/downloads.html)
